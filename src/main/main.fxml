@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ControllerMain">
+<children><SplitPane dividerPositions="0.29797979797979796" focusTraversable="true" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" SplitPane.resizableWithParent="false">
+<children><Button fx:id="badd" layoutX="61.6875" layoutY="1.5" mnemonicParsing="false" onAction="#addNumber" prefHeight="25.0" prefWidth="70.0" text="Add Number" textFill="#0b8d25" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0" /><TextField fx:id="numtext" layoutX="0.24609375" layoutY="1.0" prefHeight="25.0" prefWidth="103.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="1.0" /><ListView fx:id="listnum" prefHeight="371.0" prefWidth="175.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="30.0" />
+</children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+<children><Label fx:id="numlabel" layoutX="14.0048828125" layoutY="14.0" text="Number information: " AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" /><TextArea fx:id="textarea" layoutX="14.0" layoutY="22.0" prefHeight="338.0" prefWidth="407.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="30.0" /><Button fx:id="bopen" layoutX="231.1875" layoutY="368.0" mnemonicParsing="false" onAction="#openDialog" text="Open" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="100.0">
+<HBox.margin>
+<Insets right="15.0" />
+</HBox.margin></Button><Button fx:id="bsave" layoutX="292.1875" layoutY="368.0" mnemonicParsing="false" onAction="#saveToFile" text="Save" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="50.0">
+<HBox.margin>
+<Insets right="15.0" />
+</HBox.margin></Button><Button fx:id="bexit" layoutX="351.1875" layoutY="368.0" mnemonicParsing="false" onAction="#systemExit" text="Exit" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+<HBox.margin>
+<Insets right="15.0" />
+</HBox.margin></Button>
+</children></AnchorPane>
+  </items>
+</SplitPane>
+</children></AnchorPane>
